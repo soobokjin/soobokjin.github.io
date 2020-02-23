@@ -12,110 +12,105 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast"
+minimal_mistakes_skin: "contrast"
 
 # Site Settings
-locale                   : "ko-KR"
-title                    : "Programmer"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "SooBok Jin"
-description              : "Share things that I have learned"
-url                      : "https://soobokjin.github.io/"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+locale: "ko-KR"
+title: "Programmer"
+title_separator: "-"
+subtitle: # site tagline that appears below site title in masthead
+name: "SooBok Jin"
+description: "Share things that I have learned"
+url: "https://soobokjin.github.io/"
+baseurl: # the subpath of your site, e.g. "/blog"
+repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute: 200
 comments:
-  provider               : disqus
+  provider: disqus
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme: # "github-light" (default), "github-dark"
+    issue_term: # "pathname" (default)
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields: # ['name', 'email', 'url', 'message']
+  branch: # "master"
+  commitMessage: # "New comment by {fields.name}"
+  filename: # comment-{@timestamp}
+  format: # "yml"
+  moderation: # true
+  path: # "/_data/comments/{options.slug}" (default)
+  requiredFields: # ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email: # "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type: # "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+        format: # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint: # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey:
+  secret:
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+  path: # blank (default) uses feed.xml
+search: # true, false (default)
+search_full_content: # true, false (default)
+search_provider: # lunr (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+google_site_verification:
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
 
 # Social Sharing
 twitter:
-  username               :
+  username:
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+  username:
+  app_id:
+  publisher:
+og_image: # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider: false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id:
+    anonymize_ip: # true, false (default)
 
 
 # Site Author
 author:
-  name             : Soobok Jin
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "software programmer"
-  location         : "Seoul"
-  email            : "thdnthdn24@gmail.com"
+  name: Soobok Jin
+  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "software programmer"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "thdnthdn24@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/soobokjin"
@@ -123,8 +118,8 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/soobokjin"
 
 # Reading Files
@@ -252,16 +247,29 @@ compress_html:
     envs: development
 
 
-# Defaults
 defaults:
-  # _posts
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      sidebar:
+        nav: "docs"
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: true
+      share: false
+      related: true
   - scope:
       path: ""
       type: posts
     values:
+      sidebar:
+        nav: "docs"
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false
+      read_time: false
       comments: true
-      share: true
-      related: true
+      share: false
+      related: false

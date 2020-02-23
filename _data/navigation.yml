@@ -1,9 +1,17 @@
-# main links
 main:
-  docs:
-    - title: Languages
-      children:
-        - title: "Python"
-          url: /docs/python/
-         - title: "C"
-          url: /docs/c/
+  - title: "Contents"
+    url: /language/python
+  - title: "About Me"
+    url: /language/python
+
+docs:
+  - title: Languages
+    children:
+      - title: "Python"
+        url: /language/python
+      - title: "C"
+        url: /language/python
+  - title: OS
+    children:
+      - title: "ubuntu"
+        url: /language/python
