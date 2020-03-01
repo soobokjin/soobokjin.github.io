@@ -1,8 +1,8 @@
 main:
   - title: "Contents"
-    url: /language/python
-  - title: "About Me"
-    url: /language/python
+    url: /contents
+  - title: "About"
+    url: /about
 
 contents:
   - title: Languages

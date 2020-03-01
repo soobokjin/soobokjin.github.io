@@ -45,7 +45,7 @@ comments:
     issue_term: # "pathname" (default)
 staticman:
   allowedFields: # ['name', 'email', 'url', 'message']
-  branch: # "master"
+  branch: "master"
   commitMessage: # "New comment by {fields.name}"
   filename: # comment-{@timestamp}
   format: # "yml"
@@ -209,12 +209,6 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
-#category_archive:
-#  type: jekyll-archives
-#  path: /categories/
-#tag_archive:
-#  type: jekyll-archives
-#  path: /tags/
 
 compress_html:
   clippings: all
