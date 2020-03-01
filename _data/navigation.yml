@@ -4,14 +4,14 @@ main:
   - title: "About Me"
     url: /language/python
 
-docs:
+contents:
   - title: Languages
     children:
       - title: "Python"
         url: /language/python
       - title: "C"
-        url: /language/python
+        url: /language/c
   - title: OS
     children:
       - title: "ubuntu"
-        url: /language/python
+        url: /os/ubuntu
