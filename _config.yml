@@ -229,6 +229,8 @@ defaults:
       comments: true
       share: false
       related: true
+      header:
+        image: /assets/images/main-image.jpg
   - scope:
       path: ""
       type: posts
@@ -244,3 +246,6 @@ defaults:
       toc: true
       toc_sticky: true
       toc_label: "Contents"
+      header:
+        image: /assets/images/main-image.jpg
+
